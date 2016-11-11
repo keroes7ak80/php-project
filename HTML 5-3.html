@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>making a nav bar </title>
+<style>
+body
+{
+    margin:0;
+}
+.nav 
+{
+
+  font-family:  "Trebuchet MS", Arial, Helvetica, sans-serif;
+    background-color:black;
+     padding: 0;
+     margin:0;
+ overflow: hidden;
+ height: auto;
+ 
+
+
+}
+.nav ul
+ {
+    margin:0;
+	 list-style-type: none;
+padding: 0;
+
+  
+}
+.nav  li
+{
+   float:left;
+}
+.nav  a 
+{
+
+    display:block;
+    color:white;
+    padding :20px 20px;
+    text-decoration:none;
+    text-align:center;
+    transition: background-color 0.5s ;
+
+}
+
+.nav  a:hover
+{
+
+background-color:red;
+
+}
+
+.side
+{
+    float:left;
+ 
+    height: 100%;
+   position: fixed;
+    overflow: auto;
+    
+}
+.side ul
+ {
+
+	 list-style-type: none;
+padding: 0;
+    
+      background-color:lightgrey;    
+ margin:0;
+  
+}
+.side  a 
+{
+     
+    display:block;
+    color:black;
+    padding :20px 20px;
+    text-decoration:none;
+    text-align:center;
+    transition: background-color 0.5s ;
+
+}
+.side a:hover
+{
+    background-color:grey;
+    
+}
+.form
+{
+ 
+    margin: auto;
+    font-family:  "Trebuchet MS", Arial, Helvetica, sans-serif;
+  
+    background-color:lightgray;
+    display:block;
+    padding-left:10px;
+   float:right;
+    overflow:auto;
+   box-shadow:5px 5px 5px  gray;
+    
+}
+.form input
+{
+    margin:10px 10px;
+}
+
+</style>
+
+<head>
+<body>
+<div class="nav">
+ <ul>
+    <li><a href="http://www.facebook.com"> Facebook </a> </li>
+    <li><a href="http://www.facebook.com"> Facebook </a> </li>
+    <li><a href="http://www.facebook.com"> Facebook </a> </li>
+    <li><a href="http://www.facebook.com"> Facebook </a> </li>
+ </ul>
+
+</div >
+<div class="side">
+ <ul>
+    <li><a href="http://www.facebook.com"> Facebook </a> </li>
+    <li><a href="http://www.facebook.com"> Facebook </a> </li>
+    <li><a href="http://www.facebook.com"> Facebook </a> </li>
+    <li><a href="http://www.facebook.com"> Facebook </a> </li>
+      <li><a href="http://www.facebook.com"> Facebook </a> </li>
+    <li><a href="http://www.facebook.com"> Facebook </a> </li>
+    <li><a href="http://www.facebook.com"> Facebook </a> </li>
+    <li><a href="http://www.facebook.com"> Facebook </a> </li>
+      <li><a href="http://www.facebook.com"> Facebook </a> </li>
+    <li><a href="http://www.facebook.com"> Facebook </a> </li>
+    <li><a href="http://www.facebook.com"> Facebook </a> </li>
+    <li><a href="http://www.facebook.com"> Facebook </a> </li>
+      <li><a href="http://www.facebook.com"> Facebook </a> </li>
+    <li><a href="http://www.facebook.com"> Facebook </a> </li>
+    <li><a href="http://www.facebook.com"> Facebook </a> </li>
+    <li><a href="http://www.facebook.com"> Facebook </a> </li>
+      <li><a href="http://www.facebook.com"> Facebook </a> </li>
+    <li><a href="http://www.facebook.com"> Facebook </a> </li>
+    <li><a href="http://www.facebook.com"> Facebook </a> </li>
+    <li><a href="http://www.facebook.com"> Facebook </a> </li>
+ </ul>
+
+</div >
+<div class="form">
+<form>
+    Username:
+    <br>
+    <input type="text" name="username" value="">
+    <br>
+    Password :
+    <br>
+         <input type="password" name="password" value="">
+    <br>
+  <input type="submit" value="Log In">
+    <br>
+</form>
+</div>
+</body>
+</html>
