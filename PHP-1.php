@@ -3,7 +3,7 @@
 <body>
 
 <?php
-echo "ya far7et omak bek" ;
+echo "heeeeeeeeee" ;
 ?>
 
 </body>
